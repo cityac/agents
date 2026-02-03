@@ -107,7 +107,6 @@ class MyTrendingProducts():
     def pick_best_product(self) -> Task:
         return Task(
             config=self.tasks_config['pick_best_product'],
-            output_pydantic=ProductDecision,
         )
 
     @crew
