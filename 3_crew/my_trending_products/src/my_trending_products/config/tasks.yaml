@@ -10,7 +10,7 @@ find_trending_products:
   expected_output: >
     A list of 3-4 trending products, applications, or product ideas with brief descriptions of what makes them trending
   agent: trending_product_finder
-  output_file: output/trending_products.md
+  output_file: output/trending_products.json
 
 research_product_feasibility:
   description: >
@@ -34,27 +34,36 @@ research_product_feasibility:
   agent: tech_feasibility_researcher
   context:
     - find_trending_products
-  output_file: output/feasibility_report.md
+  output_file: output/feasibility_report.json
 
 pick_best_product:
   description: >
-    Analyze the feasibility research findings and pick the best product or idea for a solo developer to implement.
-    Prioritize products that balance market potential with realistic solo execution.
-    Consider technical feasibility, innovation factor, market potential, development time, costs, and solo viability.
+    Analyze the feasibility research findings and pick the best product for a solo developer to implement.
+
+    CRITICAL RULE: You MUST ONLY select a product where solo_developer_feasible is TRUE.
+    Do NOT pick any product that failed the solo developer assessment, regardless of market potential.
+    If no products pass the solo developer test, pick the simplest one and explain what features
+    to cut or simplify to make it achievable for one person.
+
+    From the solo-feasible products, select the one with the best balance of:
+    - Market potential and innovation
+    - Reasonable MVP timeline (prefer under 3 months)
+    - Affordable monthly costs (prefer under $200/month)
+
     Provide a detailed report explaining:
-    1. Which product/idea was chosen and why
-    2. Solo developer verdict: YES/NO with detailed justification
+    1. Which product/idea was chosen and why (MUST be solo-feasible)
+    2. Solo developer verdict: Must be YES for the chosen product
     3. Total estimated time to MVP
     4. Estimated monthly running costs
     5. Key implementation steps and recommended tech stack
     6. Week-by-week or phase-by-phase implementation roadmap
     7. Expected challenges and how to overcome them alone
     8. Skills you'll need (and which you might need to learn)
-    9. Why other products were not selected (especially regarding solo feasibility)
+    9. Why other products were not selected (indicate which failed solo developer test)
   expected_output: >
-    A detailed decision report with the chosen product/idea, explicit solo developer feasibility verdict,
+    A detailed decision report with the chosen SOLO-FEASIBLE product/idea,
     time and cost estimates, phased implementation roadmap, required skills,
-    and explanation of why other options were not selected
+    and explanation of why other options were rejected (especially those that failed solo test)
   agent: product_picker
   context:
     - research_product_feasibility
