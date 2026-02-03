@@ -12,18 +12,23 @@ find_trending_products:
 
 research_product_feasibility:
   description: >
-    Given a list of trending products and ideas, provide detailed technical analysis of each one.
+    Given a list of trending products and ideas, provide detailed technical and business analysis of each one.
     For each product, analyze:
     1. How it can be implemented using AI stack (Python, LLM, Langchain, CrewAI, OpenAI API, etc.)
     2. Technical feasibility and complexity (Easy/Medium/Hard)
     3. Required AI/ML technologies and frameworks
     4. Architecture recommendations and implementation approach
-    5. Estimated development effort and key challenges
-    6. Innovation potential and market fit
+    5. Estimated development time for MVP (in weeks/months)
+    6. Monthly infrastructure costs breakdown (API costs, hosting, databases, third-party services)
+    7. Required team structure (solo developer feasible? or needs designer/backend/frontend?)
+    8. Solo developer assessment: Can one person realistically build and maintain this? Why or why not?
+    9. Key challenges and risks
+    10. Innovation potential and market fit
     Use current data from {current_date}. Only use information from {current_year}.
   expected_output: >
-    A comprehensive report containing detailed technical feasibility analysis for each product/idea,
-    including implementation recommendations, required technologies, and complexity assessment
+    A comprehensive report for each product/idea containing: technical feasibility analysis,
+    implementation recommendations, MVP timeline estimate, monthly cost breakdown,
+    team requirements, and explicit assessment of solo developer viability
   agent: tech_feasibility_researcher
   context:
     - find_trending_products
@@ -31,17 +36,23 @@ research_product_feasibility:
 
 pick_best_product:
   description: >
-    Analyze the feasibility research findings and pick the best product or idea to implement.
-    Consider technical feasibility, innovation factor, market potential, and alignment with AI capabilities.
+    Analyze the feasibility research findings and pick the best product or idea for a solo developer to implement.
+    Prioritize products that balance market potential with realistic solo execution.
+    Consider technical feasibility, innovation factor, market potential, development time, costs, and solo viability.
     Provide a detailed report explaining:
     1. Which product/idea was chosen and why
-    2. Key implementation steps and recommended tech stack
-    3. Expected challenges and how to overcome them
-    4. Why other products were not selected
-    5. High-level implementation roadmap
+    2. Solo developer verdict: YES/NO with detailed justification
+    3. Total estimated time to MVP
+    4. Estimated monthly running costs
+    5. Key implementation steps and recommended tech stack
+    6. Week-by-week or phase-by-phase implementation roadmap
+    7. Expected challenges and how to overcome them alone
+    8. Skills you'll need (and which you might need to learn)
+    9. Why other products were not selected (especially regarding solo feasibility)
   expected_output: >
-    A detailed decision report with the chosen product/idea, comprehensive justification,
-    implementation roadmap, and explanation of why other options were not selected
+    A detailed decision report with the chosen product/idea, explicit solo developer feasibility verdict,
+    time and cost estimates, phased implementation roadmap, required skills,
+    and explanation of why other options were not selected
   agent: product_picker
   context:
     - research_product_feasibility
