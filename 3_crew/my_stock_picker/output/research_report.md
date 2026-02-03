@@ -1,17 +1,8 @@
-**Company Analysis Report: February 2026**
+**Genspark Analysis:**
+Genspark has successfully positioned itself as a leader in the integration of AI with enterprise solutions. Its "Genspark for Business" has attracted over 1,000 early adopters, showing significant traction across industries. Despite a lean team of 20, the company has hit $100 million in revenue by 2026, reflecting strong market adoption and expansion. The platform offers an AI workspace that allows businesses to specify outcomes and receive automated solutions, resulting in a valuation swell following substantial funding led by Emergence Capital and others to a valuation of $1.25 billion.
 
-**1. HeyMax**
+**Lovable Analysis:**
+Lovable, a Swedish AI startup, has rocketed its valuation to $6.6 billion following a $330 million Series B funding round led by CapitalG and Menlo Ventures. Known for its "vibe coding" platform, Lovable allows users to describe projects in simple terms, with AI generating detailed solutions. This innovative approach led to more than tripling its previous valuation within a few months, with annual recurring revenue shot up to $200 million and 320,000 paying customers, including major brands like Klarna and Uber. The company positions itself as an essential tool for app creation via text prompts.
 
-- **Overview**: HeyMax is a Singapore-based loyalty and travel rewards platform that recently secured $11 million in a Series A funding round.
-- **Business Model**: The platform is focused on integrating AI-driven technology to enhance travel and loyalty experiences, connecting banks, airlines, and merchants across Asia.
-- **Expansion Plans**: With its recent funding, HeyMax plans to expand into Japan, Taiwan, and Australia. The company aims to capitalize on the rebound in travel and is working towards building a programmable travel loyalty ecosystem.
-- **Reputation**: The attention they've received indicates a promising opportunity for investors, particularly within markets where loyalty rewards programs could significantly enhance customer retention.
-
-**2. Linker Vision**
-
-- **Overview**: Linker Vision, based in Taipei, Taiwan, is a company that develops AI-powered infrastructure solutions designed for smart cities.
-- **Funding and Growth**: Recently, it raised $35 million in a Series A funding round led by Abico Group with participation from NVIDIA. This funding is aimed at expanding globally, enhancing its AI applications for city management.
-- **Innovations**: The company focuses on AI platform development to optimize city operations including traffic management, public safety, and urban planning.
-- **Strategic Partnerships**: Collaboration with companies like NVIDIA enhances Linker Vision’s capabilities in deploying advanced AI solutions, showcasing its strong position within the industry.
-
-These companies are positioned well in the industry with their innovative approaches and expansions, making them strong candidates for potential investment.
+**OpenEvidence Analysis:**
+OpenEvidence specializes in AI tools for healthcare, often dubbed "ChatGPT for doctors." It recently catapulted its valuation to $12 billion after securing $250 million in Series D funding led by Thrive and DST. The Miami-based startup leverages AI to offer medical professionals enhanced search capabilities, facilitating informed decision-making. Founder Daniel Nadler's wealth has concurrently doubled, making him a significant stakeholder in this rapidly evolving sector, with OpenEvidence now heralded as the most valuable healthcare AI company, supported by prominent investors like Sequoia Capital and others.

@@ -1,5 +1,5 @@
-Based on the latest news from February 3, 2026, two trending technology companies in the news are:
+1. **Genspark**: A leading startup in machine learning integration platforms, helping businesses utilize big data through AI.
 
-1. **HeyMax**: A Singapore-based loyalty and travel rewards platform that has received $11 million in a Series A funding round to support product development and expansion into new markets like Japan, Taiwan, and Australia.
+2. **Lovable**: Specializes in personalized AI-driven CRM solutions, showcasing impressive growth with advanced analytics and conversational AI.
 
-2. **Linker Vision**: A company focused on augmented reality and robotics, providing solutions for smart cities and enterprise AI. They are recognized for their innovative approach in the tech industry.
+3. **OpenEvidence**: A healthcare technology company developing AI tools for doctors, recently doubled its valuation to $12 billion.

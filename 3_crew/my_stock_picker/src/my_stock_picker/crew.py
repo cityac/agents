@@ -102,7 +102,7 @@ class MyStockPicker():
         )
         long_term_memory=LongTermMemory(
             storage=LTMSQLiteStorage(
-                dp_path="./memory/long_term_memory_storage.db"
+                db_path="./memory/long_term_memory_storage.db"
             )
         )
         entity_memory=EntityMemory(

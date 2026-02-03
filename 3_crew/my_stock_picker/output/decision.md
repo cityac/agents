@@ -1,10 +1,10 @@
-**Chosen Company for Investment: Linker Vision**
+**Chosen Company for Investment: OpenEvidence**
 
-**Rationale**: Linker Vision is selected as the optimal company for investment due to its strategic focus on AI-powered solutions for smart city infrastructure. The company's recent $35 million Series A funding, led by Abico Group and participation from NVIDIA, demonstrates strong financial backing and credibility. Furthermore, its cutting-edge innovations in AI platform development for city management, traffic optimization, and public safety are aligned with growing global trends towards smart city solutions. The strategic partnership with NVIDIA enhances their capabilities and market position, indicating promising long-term growth potential.
+**Reason for Selection:**
+OpenEvidence has demonstrated unparalleled growth and has reached a remarkable valuation of $12 billion following its latest funding round. Its position as the most valuable healthcare AI company, offering innovative solutions that are highly sought after by medical professionals, makes it a prime candidate for investment. The company's significant support from prominent investors like Thrive and DST underscores confidence in its market potential and future growth trajectory. OpenEvidence's niche focus and success in the AI healthcare sector present substantial opportunities for continued expansion and investment returns.
 
-**Companies Not Selected**:
+**Companies Not Selected:**
 
-**HeyMax**
-- While HeyMax presents a promising opportunity in the growing travel and loyalty rewards market, its focus remains regional with expansion plans limited to Japan, Taiwan, and Australia.
-- The company, although innovative in integrating AI for loyalty experiences, lacks the broader global infrastructure impact and high-growth partnerships that Linker Vision possesses. The investment in HeyMax seems more regionally focused with lower scalability in comparison to Linker Vision's global smart city ambitions.
-- Given the current market dynamics and investment focus on scalable technology solutions, HeyMax was not chosen as it doesn't match the broader innovation scope offered by Linker Vision.
+1. **Genspark:** Despite being a leader in AI integration for enterprise solutions and delivering impressive revenue figures, Genspark's current valuation of $1.25 billion is substantially lower than OpenEvidence and indicates a less dominant market position. While it is making significant strides in AI applications, the potential for growth, scalability, and market leadership appears more promising with OpenEvidence at this time.
+
+2. **Lovable:** Lovable's innovative "vibe coding" platform has led to impressive user and revenue growth with a valuation leap to $6.6 billion. However, while it shows potential, the niche application of its AI technology in coding and app development does not exhibit the same level of critical industry penetration or disruption as OpenEvidence in the healthcare sector. The healthcare focus of OpenEvidence presents a broader and more impactful opportunity for investment in the current landscape.
