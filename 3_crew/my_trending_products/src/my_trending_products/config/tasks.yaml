@@ -1,7 +1,7 @@
 find_trending_products:
   description: >
     Find the top trending SaaS products, applications, and innovative product ideas by searching
-    Product Hunt, Hacker News, tech blogs, and AI communities from {current_date}.
+    Product Hunt, Hacker News, tech blogs, and AI communities from the past 2 months. Today is {current_date}.
     Focus on products that leverage or could be built with AI technologies (LLM, Python, Langchain, CrewAI, etc.).
     Only search for news and data from {current_year}. Find new products that you've not found before.
     Look for products with high engagement, innovative AI use cases, or gaps in the market that AI could fill.
